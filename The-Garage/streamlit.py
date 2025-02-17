@@ -28,7 +28,7 @@ reshaped_legend = get_display(arabic_reshaper.reshape('نوع السيارة'))
 # إضافة الشعار والعنوان في Streamlit
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.image("IMG_4670.png", width=150)
+    st.image("The-Garage/IMG_4670.png", width=150)
 with col2:
     st.title("السعوديين وتويوتا: علاقة أسطورية في سوق المستعمل!")
 
