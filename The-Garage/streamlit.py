@@ -204,4 +204,4 @@ if selected_city:
         filtered_data = brand_specific_data[(brand_specific_data['year'] >= selected_year[0]) & (brand_specific_data['year'] <= selected_year[1])]
         st.subheader(f"Filtered Cars from {selected_year[0]} to {selected_year[1]}")
         st.write(filtered_data[['model', 'year', 'price', 'mileage']].head(10))
->>>>>>> 0a6ea4ce5b09ef86c18cf993610f7872b31c581b
+
