@@ -1,0 +1,4 @@
+matplotlib
+seaborn
+arabic_reshaper
+python-bidi
